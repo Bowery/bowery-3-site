@@ -1,0 +1,138 @@
+h1 { 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	font-size: 56px; 
+	line-height: 65px; 
+	letter-spacing: -1px;
+	background: -webkit-linear-gradient(#333, #888);
+	background-size: 100% 122px;
+	background-position: center 10px;
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+h2 {
+	font-size: 48px;
+	line-height: 57px;
+	color: #2D2C2C !important;
+}
+h3 {
+	font-size: 38px;
+	line-height: 46px;
+	color: #8E8E93;
+}
+li {
+	display: inline-block;
+	margin: 0px 50px;
+}
+hr {
+	margin: 60px 0px;
+}
+.button {
+	background: none;
+	height: 55px;
+	border: 1px solid #157AFB;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 30px;
+	text-align: right;
+	font-weight: 300;
+	color: #157AFB !important;
+	padding-top: 27px;
+	padding-right: 40px;
+	transition: all 0.1s linear;
+
+}
+.button:hover {
+	color: white !important;
+	background: #157AFB;
+	border: 1px solid #157AFB;
+	text-shadow: none;
+	transition: all 0.1s linear;
+
+
+}
+.download {
+	margin-top: 50px;
+	width: 228px;
+}
+.package {
+	width: 50px;
+}
+.hero {
+	background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%) 0 top / 100% 120px repeat-x #f9fbfc;
+	height: 492px;
+	border-bottom: 1px solid #EBEEF0;
+	padding-top: 135px;
+}
+.hero h2 {
+	color: #8E8E93;
+}
+.hero h3 {
+	font-size: 33px;
+	line-height: 40px;
+	margin-bottom: 8px;
+	color: #8E8E93;
+}
+.header {
+	margin: 55px 0px 80px 0px;
+	height: 90px;
+}
+.logo {
+	font-weight: 800;
+	display: inline;
+}
+.logo img {
+	display: inline;
+}
+.logo h1 {
+	display: inline;
+	vertical-align: 35%;
+	margin-left: 14px;	
+}
+.nav {
+	margin-top: 22px;
+}
+li {
+	float: right;
+}
+li:first-child {
+	margin-right: 0px;
+}
+.nav h5 {
+	font-size: 17px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #C7C7CC;
+	font-family: "Helvetica Neue Medium", "HelveticaNeue-Medium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.features {
+	padding-top: 70px;
+}
+.bowery-menubar {
+width: 354px;
+height: 500px;
+background-image: url("../images/bowery-menubar.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top right;
+position: fixed;
+right: 991px;
+top: 100px;
+}
+.desktop {
+width: 1000px;
+height: 561px;
+position: absolute;
+right: 670px;
+top: 67px;
+	border-radius: 4px 4px 0px 4px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .25), inset 0 0 0 1px rgba(0, 0, 0, .15);
+	-webkit-transform: translate(-100px, 0);
+	transform: translate(-100px, 0);
+	-webkit-transition: opacity 1s ease-in-out 1.4s, -webkit-transform 1s ease-in-out 1.4s;
+	transition: opacity 1s ease-in-out 1.4s, transform 1s ease-in-out 1.4s;
+	background-image: url("../images/menubar-screenshot-2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
